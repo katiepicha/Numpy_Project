@@ -49,6 +49,8 @@ print()
 
 ## Step 6: Using your fee array and salesArray, calculate how much profit Superstore made for each sale after paying credit card fees. Store this in a new array and print it.
 print("-----------------------------------------------   STEP SIX  -----------------------------------------------")
+profit = salesArray - sales_fee_rounded
+print(profit)
 
 print()
 
